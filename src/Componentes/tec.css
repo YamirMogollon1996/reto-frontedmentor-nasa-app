@@ -1,0 +1,51 @@
+.tecnologia-center{
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    /* border: 1px solid red; */
+
+
+}
+
+.denter_technology{
+    height: 50%;
+    width: 50%;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+}
+.denter_technology div {
+    /* border: 1px solid bisque; */
+    margin-top: 1.4em;
+}
+.number{
+    color: whitesmoke;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray; 
+}
+.session_art_1{
+    margin: auto;
+}
+.session-art{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.session_art_1{
+ 
+    margin-right: 60px;
+}
+.session-art_2 {
+    font-size: 5em;
+    font-weight: 100;
+    color: gray;
+}

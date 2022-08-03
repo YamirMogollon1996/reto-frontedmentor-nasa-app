@@ -1,0 +1,50 @@
+.product-1{
+
+    
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.name{
+    font-size: 4em;
+    font-weight: 100;
+}
+.role{
+    color: gray;
+    font-weight: 100;
+}
+.role-session{
+    color: gray;
+}
+
+.container-session{
+    /* border: 1px solid whitesmoke; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+   
+}
+.top-gama{
+        position: absolute;
+        bottom:  30px;
+}
+
+.top-gama{
+    width: 140px;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+}
+
+.denter-gama{
+    width: 20px;
+    height: 20px;
+    background-color: #212f3c69;
+    border-radius: 50%;
+}
