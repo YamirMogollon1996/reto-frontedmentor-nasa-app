@@ -1,0 +1,362 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #110920;
+  
+
+}
+
+.container{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 50vw;
+    margin: auto;
+    /* gap: 20px; */
+    grid-auto-flow: dense;
+    place-items: center;
+    padding: 1em;
+    gap: 40px;
+}
+.denter_children{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end    ;
+}
+.denter_children:nth-child(1){
+    /* background-color: antiquewhite; */
+    /* grid-row: 1/3; */
+    /* height: auto; */
+}
+.ojos_dv{
+    /* border: 1px solid black; */
+
+}
+.session_img{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.ojos_dv{
+    
+    border-radius: 5px;
+    text-align: center;
+    z-index: 1000;
+    background-color:   hsl(235, 46%, 20%);
+    color: whitesmoke;
+}
+.session_art{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.denter_children:nth-child(1){
+
+        background-color:  hsl(15, 100%, 70%);
+}
+.denter_children:nth-child(2){
+
+    background-color:  hsl(195, 74%, 62%)
+}
+.denter_children:nth-child(3){
+    background-color: hsl(348, 100%, 68%)
+
+}
+.denter_children:nth-child(4){
+    background-color:  hsl(145, 58%, 55%)
+}
+.denter_children:nth-child(5){
+
+    background-color:  hsl(264, 64%, 52%);
+}
+.denter_children:nth-child(6){
+    background-color:   hsl(43, 84%, 65%)
+}
+@media screen and (max-width : 1000px) {
+    body{
+        height:     auto;
+    }
+    
+    .container {
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+@media screen and (max-width : 760px) {
+    body{
+        height:     auto;
+    }
+
+    .container {
+        grid-template-columns: repeat(1,1fr);
+ 
+    }
+    
+}
+
+.render{
+    /* border: 1px solid whitesmoke; */
+    float: left;
+    gap: 5px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: hsl(235, 46%, 20%);
+    width: 200px;
+}
+.img_jeremy{
+    width: 80px;
+    height: 80px;
+}
+.render > *{
+    color: whitesmoke;
+}
+.render_modal_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 5px;
+    height: 70%;
+    
+}
+.render_modal_2{
+  
+    height: 30%;
+    text-align: center;
+}
+.container-fluid{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.render_modal_2 p:hover{
+        cursor: pointer;
+}
+
+@media screen  and (max-width : 750px) {
+        .render{
+            display: flex;
+            width: 80%;
+            margin: auto;
+            align-items: center;
+            justify-content: space-evenly;
+            
+        }   
+        h1{
+            font-size: 1.4em;
+        } 
+}
+
+.Dasboradsingle{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit  , minmax(250px,1fr));
+    place-content: center;
+    margin: auto;
+    row-gap: 40px;
+    column-gap: 10px;
+    width: 80%;
+
+}
+.session_Asrt{
+
+    text-align: center;
+    transition: all .5s  ease-in-out;
+    border: 1px solid rgb(178, 181, 182);
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+.imagen-session{
+    width: 200px;
+    object-fit: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 5px;    
+    margin: auto;
+}
+.imagen-session:hover{
+    cursor: pointer;
+    transition: all 1s;
+    filter: blur(1);
+}
+
+
+
+.compilado{
+
+    min-width:400px;
+    max-width: 200px;
+    /* width: 500px; */
+    height: 60px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px;
+
+ 
+}
+.buton{
+    height: 60px;
+    outline: none;
+    border: none;
+    background-color: royalblue;
+    color: whitesmoke;
+    padding: 0 1em;
+    border-radius:5px ;
+    font-size: larger;
+}
+.buton:hover{
+    cursor: pointer;
+}
+
+.view{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+    padding: 2em;
+}
+
+.descriptiom-year{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    color: gray;
+}
+
+.buton-se{
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color: #F4D03F;
+    padding: 1em;
+    color: black;
+
+    border-radius: 5px;
+}   
+
+.buton-se:hover{
+    cursor: pointer;
+}
+
+.single{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+
+}
+.DescriptionObs{
+    /* border: 1px solid black; */
+    width: 50%;
+}
+.center{
+    width: 80%;
+    height: 10px;
+    background-color: #272343;
+    margin: 1em;
+    margin: auto;
+
+
+}
+.header-top{
+    width: 100%;
+    background-color: #80808088;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+
+}
+.header-top:hover{
+    cursor: pointer;
+}
+.header-top  > * {
+    color: whitesmoke;
+
+}
+
+@media screen  and (max-width :  800px) {
+    .single{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+.toping::first-letter{
+        color: #F4D03F ;
+        font-size: 2em;
+}
+.topingm{
+    color:#F4D03F  ;
+}
+
+.server-render:hover{
+    cursor: pointer;
+    filter: 1em;
+}
+.buton1  , .buton2 , .buton3{
+
+    padding: 1em;
+    background-color: #F4D03F;
+    height: 50px;
+    color: #110920;
+    text-align: center;
+    margin-top: 4em;
+    border-radius: 5px;
+    font-weight: 600;
+    
+
+}
+.zonebuton{
+    /* border: 1px solid whitesmoke; */
+    margin-top: 3em;
+    text-align: center;
+}
+.zonebuton  >  * {
+    margin-right: 40px;
+}
+.theme{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+        position: fixed;
+        
+}
+
+.theme  >  button{
+        font-size: 2em;
+        background: none;
+        border: none;
+        
+}
+.theme  >  button:hover{
+    cursor: pointer;
+}
+.renderUni{
+    transition: all 1s ;
+}
+/* .absolute{
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
